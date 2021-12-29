@@ -1,5 +1,5 @@
 function checkData(event) {
-    console.log("click");
+    
     event.preventDefault();
     let x = document.forms["login-form"]["username"].value;
     const p = document.forms["login-form"]["password"].value;
